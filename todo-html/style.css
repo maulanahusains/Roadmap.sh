@@ -1,0 +1,45 @@
+main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo-input input:focus {
+  outline: 1px solid black;
+  color: black;
+}
+
+.todo-input input[type=text] {
+  width: 20rem;
+  height: 3rem;
+  padding: 1rem;
+  border: 0;
+  color: black; 
+  background-color: #e8eaec;
+  border-radius: 1rem;
+}
+
+.todo-input button:focus {
+  outline: 1px solid #77dd77;
+}
+
+.todo-input button {
+  width: 8rem;
+  height: 3rem;
+  background-color: #77dd77;
+  border: 0;
+  border-radius: 1rem;
+}
+
+.lists {
+  padding: 0;
+}
+
+.lists li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

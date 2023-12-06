@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Todo HTML CSS JS</title>
+</head>
+<body>
+  <main>
+    <div class="todo-container">
+      <div class="todo-input">
+        <input type="text" id="todo">
+        <button onclick="Store()">Add</button>
+      </div>
+      <div class="todos">
+        <ul class="lists" id="lists">
+          <li>Hidup <span><button>Hapus</button> <button>Edit</button></span></li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
